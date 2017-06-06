@@ -1,0 +1,48 @@
+.panel.search .panel-body {
+    padding: 10px 10px;
+}
+.panel-body, .panel-heading {
+    padding: 8px 10px;
+}
+
+.panel {
+    border: none;
+    margin-bottom: 12px;
+    box-shadow: 0 0 3px rgba(0,0,0,.15);
+}
+.panel {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.space-left{
+  margin-left:5px;
+}
+
+.space-right{
+  margin-right:5px;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.form-inline{
+  /*height: 40px;*/
+}
+
+.form-group{
+  margin-bottom: 8px
+}
+
+.field{
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+.field legend{
+  padding: 5px 10px;
+  font-size: 14px;
+  width: auto;
+  border: 0px;
+  margin-bottom: 5px;
+}

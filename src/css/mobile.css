@@ -1,0 +1,94 @@
+html, body{
+  font-size: 50px;
+  -webkit-font-smoothing: thin;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#mobileheader{
+  flex: 1;
+  background: #fff;
+}
+
+#mobileheader header{
+  border-bottom: 1px solid #2db7f5;
+  padding-left: 10px;
+}
+
+#mobileheader header img{
+  height: 50px;
+}
+
+#mobileheader header span{
+  font-size: 35px;
+  vertical-align: top;
+  padding-left: 10px;
+  color: #2db7f5;
+}
+
+
+.title-info{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ececed;
+}
+
+.title-info p{
+  margin: 10px 0;
+}
+
+.title-info .title{
+  color: #000;
+  font-size: 14px;
+}
+
+.block{
+  padding: 10px 5px;
+  border-bottom: 1px solid #ececed;
+}
+
+.title-info .price{
+  font-size: 16px;
+  color: #2db7f5;
+}
+
+.properties{
+  padding: 10px 10px;
+}
+
+.properties .title{
+  font-size: 14px;
+}
+
+.schedule{
+  padding: 10px 10px;
+  height: 500px;
+}
+
+.schedule .title{
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.mobile-panel{
+  background-color: #fff;
+}
+
+.properties ul{
+  padding: 10px;
+}
+
+.properties li{
+  padding: 5px;
+}
+
+.properties li label{
+  font-weight: 700;
+}
+
+
+

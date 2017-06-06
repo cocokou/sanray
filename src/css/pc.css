@@ -1,0 +1,433 @@
+html, body{
+}
+
+#mainContainer{
+  overflow: auto;
+  height: 100%;
+  background-color: #ececec;
+}
+
+#app-container{
+  overflow: auto;
+  height: 100%;
+}
+
+
+
+.logo{
+  align-items: center;
+  display: flex;
+}
+
+.logo img{
+  width: 48px;
+  height: 48px;
+}
+
+.logo span{
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.carousel {
+    width: 100%;
+    float: left;
+}
+
+.carousel img {
+    width: 100%;
+    height: 260px;
+}
+
+.top-header{
+  height: 50px;
+  top: 50px;
+  position: absolute;
+  left: 50px;
+}
+.top-header-btns{
+  height: 50px;
+  top: 45px;
+  position: absolute;
+  right: 50px;
+}
+.bread-guide{
+  position: relative;
+  margin-top: 10px;
+  display: inline-block;
+}
+.login-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    /*background: url(../images/login-bg.jpg) no-repeat fixed;*/
+    background-color: #ecf6fd;
+    background-size: cover;
+    transition: all 1s;
+    width: 100%;
+    height: 100%;
+}
+
+.container, .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.form-signin {
+    max-width: 300px;
+    margin: 142px auto;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.15);
+    padding-bottom: 40px;
+}
+
+.form-signin .form-signin-heading {
+    margin: 0;
+    padding: 42px 15px 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #2db7f5;
+    position: relative;
+}
+
+.form-signin .form-signin-heading img {
+    width: 50px;
+}
+
+.form-signin .input-box{
+  margin-bottom: 15px;
+}
+
+.login-btn{
+  width: 100%;
+  margin-bottom: 40px
+}
+
+.login-wrapper {
+    padding: 20px 27px;
+    position: relative;
+}
+
+.left-side {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 2px solid #e9e9e9;
+    z-index: 100;
+    padding-bottom: 25px;
+    background: #fff;
+}
+
+.right-side {
+  position: relative;
+  height: 100%;
+  margin-left: 200px;
+}
+
+.header-middle{
+  padding: 15px 0;
+}
+
+/*Layout*/
+/*#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #108ee9;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px;
+}
+
+#components-layout-demo-custom-trigger .ant-layout-sider-collapsed .anticon {
+  font-size: 16px;
+}
+
+#components-layout-demo-custom-trigger .ant-layout-sider-collapsed .nav-text {
+  display: none;
+}*/
+
+
+/*下拉表格*/
+.components-table-demo-nested .ant-table-expanded-row > td:last-child {
+  padding: 0 48px 0 8px;
+}
+
+.components-table-demo-nested .ant-table-expanded-row > td:last-child .ant-table-thead th {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.components-table-demo-nested .ant-table-expanded-row > td:last-child .ant-table-thead th:first-child {
+  padding-left: 0;
+}
+
+.components-table-demo-nested .ant-table-expanded-row > td:last-child .ant-table-row td:first-child {
+  padding-left: 0;
+}
+
+.components-table-demo-nested .ant-table-expanded-row .ant-table-row:last-child td {
+  border: none;
+}
+
+.components-table-demo-nested .ant-table-expanded-row .ant-table-thead > tr > th {
+  background: none;
+}
+
+.components-table-demo-nested .table-operation a:not(:last-child) {
+  margin-right: 24px;
+}
+/*下拉表格*/
+
+
+/*新增产品*/
+.form-panel{
+  width: 100%;
+  padding: 24px 24px;
+}
+.bold-primary-hr{
+  border-top: solid 2px #49a9ee;
+}
+.default-doted-hr{
+  border-top: 1px dotted #f3f3f3;
+}
+.primary-hr{
+  border-top: solid 1px #49a9ee;
+}
+
+.panel-form{
+  box-shadow: none;
+  border: 1px solid #F3F3F3;
+  margin-bottom: 22px;
+  border-radius: 4px;
+}
+.panel-form .panel-heading{
+  color: #49a9ee;
+  font-size: 14px;
+  border-bottom: 1px dotted #f3f3f3;
+}
+
+.form-title{
+  font-size: 16px;
+}
+.input-xs{
+  width: 200px;
+}
+label{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.add-pic{
+  width: 180px;
+  height: 180px;
+}
+
+.product-map.full-screen .map-container {
+    height: 100%;
+}
+
+.product-map .map-container {
+    height: 600px;
+}
+
+.product-map{
+  position: relative;
+}
+
+.full-screen-btn {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+    border: 1px solid #C5C5C5;
+    background: url(/src/images/max.jpg) center center no-repeat #fff;
+    background-size: 80% 80%;
+}
+.map-toolbar {
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    top: 10px;
+    right: 5px;
+    z-index: 10;
+}
+.product-map.full-screen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+.AMap_marker_box{
+  height: 64px;
+  width: 32px;
+  box-sizing: border-box;
+}
+.AMap_marker_box .count{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: rgba(200, 200, 10, 0.5);
+  font-size: 16px;
+  font-weight: bold;
+  color: #2db7f5;
+  text-align: center;
+  line-height: 20px;
+}
+.AMap_marker {
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background: url(/src/images/marker.png) no-repeat;
+}
+
+.ant-tag {
+  margin-bottom: 8px;
+}
+
+.product-box{
+  padding: 30px 10px;
+  border: 1px solid cyan;
+  border-radius: 5px;
+}
+
+.fly-img{
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 10000;
+  opacity: .5;
+  display: none;
+}
+.fly-img img{
+  width: 100%;
+  height: 100%;
+}
+.recipe{
+  padding: 8px 10px;
+  background-color: #cfedf0;
+  color: #00a2ae;
+}
+
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 6px;
+  background-color: #fafafa;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.ingre{
+  height: 128px;
+  width: 128px;
+  display: inherit;
+  border-radius: 5px;
+}
+.ingre.porkbox{
+  background: url(/src/images/meat3.png);
+}
+.ingre.picklebox{
+  background: url(/src/images/pickle.png);
+}
+.ingre.bottlebox{
+  background: url(/src/images/bottle3.png);
+}
+.ingre.canbox{
+  background: url(/src/images/jar.png);
+}
+.ingre:hover >.produce-btn{
+    display: inline-block;
+}
+.ingre:hover{
+    border: 2px solid #108ee9;
+}
+.ingre.active{
+  border: 2px solid #108ee9;
+}
+.ingre.active > .produce-btn{
+  display: inline-block;
+}
+
+.ingre > .produce-btn{
+    display: none;
+  }
+.process-guide{
+  height: 120px;
+  padding: 20px 0px;
+}
+.process-step .img{
+  height: 64px;
+  width: 64px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  border: 2px solid #666;
+  border-radius: 5px;
+}
+.process-step .text{
+  width: 64px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.process-step:hover > .img{
+  border: 2px solid #2db7f5;
+}
+
+.process-step:hover > .text{
+  color: #2db7f5;
+}
+.process-step.active .img {
+  border: 2px solid #2db7f5;
+}
+.process-step.active .text{
+  color: #2db7f5;
+}
+
+.img img{
+  width: 48px;
+  height: 48px;
+}
+.process-guide li{
+  float: left;
+  padding: 8px 15px;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+.product-container li{
+  float: left;
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
